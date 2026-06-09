@@ -1,0 +1,13 @@
+{
+  "name": "herenavond-2026",
+  "version": "1.0.0",
+  "description": "Herenavond 2026 golf klassement tracker",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "update": "node src/main.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
