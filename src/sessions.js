@@ -320,6 +320,31 @@ const sessions = [
       { type: "Longest", hole: 4, name: "Rudy de Muynck" },
       { type: "Longest", hole: 15, name: "Jos Kerckhaert" }
     ]
+  },
+  {
+    date: "2026-06-16",
+    emailId: "19ed1e82ecd2958f",
+    subject: "Uitslag Herenavond 16 juni 2026",
+    participants: 60,
+    top5: [
+      { rank: 1, name: "Tim Stevens" },
+      { rank: 2, name: "Bas van Groenestijn" },
+      { rank: 3, name: "Jan Boerbooms" },
+      { rank: 4, name: "Guy de Mey" },
+      { rank: 5, name: "Kristof van de Voorde" }
+    ],
+    birdies: [
+      { hole: 6, name: "Tim Stevens" },
+      { hole: 17, name: "Jan Boerbooms" },
+      { hole: 17, name: "Patrick van Beeck" },
+      { hole: 18, name: "Bjorn Henderyckx" }
+    ],
+    bijzondere: [
+      { type: "Neary", hole: 2, name: "Tim Stevens" },
+      { type: "Neary", hole: 17, name: "Jan Boerbooms" },
+      { type: "Longest", hole: 6, name: "Tim Stevens" },
+      { type: "Longest", hole: 13, name: "Hessel Wieles" }
+    ]
   }
 ];
 
