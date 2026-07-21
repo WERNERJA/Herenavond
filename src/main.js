@@ -52,8 +52,8 @@ async function main() {
 
   // Schrijf naar Firebase
   try {
-    await writeToFirebase('herenavond2026', firebaseData);
-    console.log('\n[Firebase] Data succesvol opgeslagen.');
+    const result = await writeToFirebase('herenavond2026', firebaseData);
+    if (result !== null) console.log('\n[Firebase] Data succesvol opgeslagen.');
   } catch (err) {
     console.error('\n[Firebase] FOUT:', err.message);
   }
@@ -61,8 +61,8 @@ async function main() {
   // Stuur klassement naar CalMeBot
   const message = formatStandings(standings, sessions.length, lastSession.date);
   try {
-    await sendWhatsApp(message);
-    console.log('\n[CalMeBot] Klassement verstuurd via WhatsApp.');
+    const result = await sendWhatsApp(message);
+    if (result !== null) console.log('\n[CalMeBot] Klassement verstuurd via WhatsApp.');
   } catch (err) {
     console.error('\n[CalMeBot] FOUT:', err.message);
   }
