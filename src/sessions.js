@@ -320,6 +320,179 @@ const sessions = [
       { type: "Longest", hole: 4, name: "Rudy de Muynck" },
       { type: "Longest", hole: 15, name: "Jos Kerckhaert" }
     ]
+  },
+  {
+    date: "2026-06-16",
+    emailId: "19ed1e82ecd2958f",
+    subject: "Uitslag Herenavond 16 juni 2026",
+    participants: 60,
+    top5: [
+      { rank: 1, name: "Tim Stevens" },
+      { rank: 2, name: "Bas van Groenestijn" },
+      { rank: 3, name: "Jan Boerbooms" },
+      { rank: 4, name: "Guy de Mey" },
+      { rank: 5, name: "Kristof van de Voorde" }
+    ],
+    birdies: [
+      { hole: 6, name: "Tim Stevens" },
+      { hole: 17, name: "Jan Boerbooms" },
+      { hole: 17, name: "Patrick van Beeck" },
+      { hole: 18, name: "Bjorn Henderyckx" }
+    ],
+    bijzondere: [
+      { type: "Neary", hole: 2, name: "Tim Stevens" },
+      { type: "Neary", hole: 17, name: "Jan Boerbooms" },
+      { type: "Longest", hole: 6, name: "Tim Stevens" },
+      { type: "Longest", hole: 13, name: "Hessel Wieles" }
+    ]
+  },
+  {
+    date: "2026-06-23",
+    emailId: "19ef5fe50286ce0b",
+    subject: "Uitslag Herenavond 23 juni 2026",
+    participants: 41,
+    top5: [
+      { rank: 1, name: "Sil van Hecke" },
+      { rank: 2, name: "Bert Brijs" },
+      { rank: 3, name: "Ruud dHondt" },
+      { rank: 4, name: "Philipe Huighe" },
+      { rank: 5, name: "Alex Boerbooms" }
+    ],
+    birdies: [
+      { hole: 1, name: "Sil van Hecke" }
+    ],
+    bijzondere: [
+      { type: "Neary", hole: 8, name: "Jan Links" },
+      { type: "Longest", hole: 4, name: "Guido Debbaut" }
+    ]
+  },
+  {
+    date: "2026-06-30",
+    emailId: "19f1a0d04b6c8d39",
+    subject: "Uitslag Herenavond 30 juni 2026",
+    participants: 45,
+    top5: [
+      { rank: 1, name: "Werner Janssens" },
+      { rank: 2, name: "Adrie Boddaert" },
+      { rank: 3, name: "Bjorn Henderyckx" },
+      { rank: 4, name: "Bas van Groenestijn" },
+      { rank: 5, name: "Maurits Tichelman" }
+    ],
+    birdies: [
+      { hole: 2, name: "Hessel Wieles" },
+      { hole: 12, name: "Jos Kerckhaert" },
+      { hole: 12, name: "Tim Stevens" },
+      { hole: 12, name: "Marcel Bedee" },
+      { hole: 18, name: "Bjorn Henderyckx" },
+      { hole: 18, name: "Maurits Tichelman" }
+    ],
+    bijzondere: [
+      { type: "Neary", hole: 2, name: "Hessel Wieles" },
+      { type: "Neary", hole: 11, name: "Werner Janssens" },
+      { type: "Longest", hole: 6, name: "Bas van Groenestijn" },
+      { type: "Longest", hole: 18, name: "Maurits Tichelman" }
+    ]
+  },
+  {
+    date: "2026-07-07",
+    emailId: "19f3e650b93d5188",
+    subject: "Uitslag Herenavond/BBQ 7 juli 2026",
+    participants: 66,
+    // FBBB teamformaat: beide teamleden krijgen de punten van hun gezamenlijke rang
+    top5: [
+      { rank: 1, name: "Gokhan Serigoflu" },
+      { rank: 1, name: "Werner Janssens" },
+      { rank: 2, name: "Dennis Hermans" },
+      { rank: 2, name: "Michael Dooms" },
+      { rank: 3, name: "Danny van de Velde" },
+      { rank: 3, name: "Mark Smallegang" },
+      { rank: 4, name: "Hendrik van Hoeve" },
+      { rank: 4, name: "Marti Allander" },
+      { rank: 5, name: "Marc Bulkmans" },
+      { rank: 5, name: "Jan Baeyens" }
+    ],
+    birdies: [],
+    bijzondere: [
+      { type: "Neary", hole: 2, name: "Tim Stevens" },
+      { type: "Neary", hole: 11, name: "Mark Smallegang" },
+      { type: "Close to the line", hole: 4, name: "Peter van der Bilt" },
+      { type: "Close to the line", hole: 13, name: "Herman Huygens" }
+    ]
+  },
+  {
+    date: "2026-07-14",
+    emailId: "19f628fddd3d2a67",
+    subject: "Uitslag Herenavond 14 juli 2026",
+    participants: 21,
+    top5: [
+      { rank: 1, name: "Jos Goossen" },
+      { rank: 2, name: "Maurits Tichelman" },
+      { rank: 3, name: "Geoffry Molders" },
+      { rank: 4, name: "Ronald van den Hemel" },
+      { rank: 5, name: "Han Blokland" }
+    ],
+    birdies: [
+      { hole: 18, name: "Maurits Tichelman" }
+    ],
+    bijzondere: [
+      { type: "Neary", hole: 8, name: "Peter Loof" },
+      { type: "Neary", hole: 17, name: "Tim Stevens" },
+      { type: "Longest", hole: 4, name: "Franklin van Hove" },
+      { type: "Longest", hole: 18, name: "Ronald Bleijenberg" }
+    ]
+  },
+  {
+    date: "2026-07-28",
+    emailId: "19faa23e3659f0d9",
+    subject: "Uitslag Herenavond 28 juli 2026",
+    participants: 51,
+    top5: [
+      { rank: 1, name: "Luc Missiaen" },
+      { rank: 2, name: "Frank Berkhof" },
+      { rank: 3, name: "Bas van Groenestijn" },
+      { rank: 4, name: "Peter van der Bilt" },
+      { rank: 5, name: "Franklin van Hove" }
+    ],
+    birdies: [
+      { hole: 2, name: "Stijn Maesen" },
+      { hole: 3, name: "Hessel Wieles" },
+      { hole: 14, name: "Luc Missiaen" },
+      { hole: 14, name: "Alex Boerbooms" },
+      { hole: 18, name: "Kristof van de Voorde" }
+    ],
+    bijzondere: [
+      { type: "Neary", hole: 2, name: "Marc Engelbeen" },
+      { type: "Neary", hole: 11, name: "Michael Dooms" },
+      { type: "Longest", hole: 6, name: "Geoffry Molders" },
+      { type: "Longest", hole: 13, name: "Frank Berkhof" }
+    ]
+  },
+  {
+    date: "2026-08-04",
+    emailId: "19fce0e99176daec",
+    subject: "Uitslag Herenavond 4 augustus 2026",
+    participants: 42,
+    top5: [
+      { rank: 1, name: "Leendert Muller" },
+      { rank: 2, name: "Rick Motet" },
+      { rank: 3, name: "Paul Koorevaar" },
+      { rank: 4, name: "Adrie Pieters" },
+      { rank: 5, name: "Danny van de Velde" }
+    ],
+    birdies: [
+      { hole: 2, name: "John Smet" },
+      { hole: 3, name: "Rick Motet" },
+      { hole: 8, name: "Tim Stevens" },
+      { hole: 8, name: "Phil Jepson" },
+      { hole: 9, name: "Tim Stevens" },
+      { hole: 14, name: "Hessel Wieles" }
+    ],
+    bijzondere: [
+      { type: "Neary", hole: 8, name: "Phil Jepson" },
+      { type: "Neary", hole: 17, name: "Harold van Waterschoot" },
+      { type: "Longest", hole: 3, name: "Tim Stevens" },
+      { type: "Longest", hole: 18, name: "Harold van Waterschoot" }
+    ]
   }
 ];
 
